@@ -17,5 +17,8 @@ def create(item):
 
 # read
 def read(index):
-    item = checklist [index]
-    return item
+    return checklist [index]
+
+checklist = ['blue', 'orange']
+checklist [1] = 'cats'
+print (checklist)
