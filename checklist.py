@@ -15,11 +15,11 @@
 checklist = list()
 
 # create
-def create(item):
+def create (item):
     checklist.append (item)
 
 # read
-def read(index):
+def read (index):
     return checklist [index]
 
 # checklist = ['blue', 'orange']
@@ -34,9 +34,22 @@ def update (index, item):
 # checklist.pop (1)
 # print (checklist)
 
+# destory
 def destroy (index):
     checklist.pop (index)
 
+# list all items in list
+def list_all_items ():
+    index = 0
+    for list_item in checklist:
+        print ("{} {}".format (index, list_item))
+        index += 1
+
+#mark completed
+def mark_completed(index)
+
+
+# make test function
 def test ():
     create ("purple sox")
     create ("red cloak")
@@ -50,8 +63,6 @@ def test ():
     print (read(0))
     # print (read(1))
 
-test ()
+    list_all_items ()
 
-def list_all_items():
-    for list_item in checklist:
-        print (list_item)
+test ()
