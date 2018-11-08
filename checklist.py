@@ -81,6 +81,7 @@ def select(function_code):
 def user_input(prompt):
     # the input function will display a message in the terminal
     # and wait for user input.
+    # not really sure if the user input is working here because I keep running a error here
     user_input = input(prompt)
     return user_input
 
